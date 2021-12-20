@@ -24,6 +24,12 @@
     font-size: 22px;
     margin-bottom: 20px;
   }
+
+  .form-register h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
   
   .controls {
     width: 100%;
