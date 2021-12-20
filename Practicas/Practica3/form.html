@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulario Registro</title>
+    </head>
+    <body>
+        <form action="enviar.html">
+            <section class="form-register">
+                <h4>Formulario Registro</h4>
+                <input class="controls" type="text" pattern="{5,}" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
+                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required>
+                <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+                <input class="controls" type="number" name="telf" id="telefono" placeholder="Ingrese su Telefono" required>
+                <input class="controls" type="date" name="fecha" id="fecha" placeholder="Ingrese la Fecha">
+                <input class="controls" list="usuario" placeholder="Ingrese su Tipo de Usuario">
+                <datalist id="usuario">
+
+                    <option value="Estudiante">
+
+                    <option value="Docente">
+
+                    <option value="Administrativo">                    
+
+                </datalist>
+                <input class="controls" list="sos" placeholder="Lugar de Informacion: Seleccione Dpto.">
+                <datalist id="sos">
+                    <option value="Cochabamba">
+                    <option value="La Paz">
+                    <option value="Santa Cruz">
+                    <option value="Potosi">
+                    <option value="Beni">    
+                    <option value="Pando">   
+                    <option value="Tarija">
+                    <option value="Oruro">    
+                    <option value="Pando">
+                </datalist>
+                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                <input class="controls" type="checkbox" required>
+                
+                <input class="botons" type="submit" value="Enviar">
+                            
+            </section>
+        </form>
+    </body>
+</html>
